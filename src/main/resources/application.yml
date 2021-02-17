@@ -1,1 +1,11 @@
+server:
+  port: 9090   # Application port
 
+cloud:
+  aws:
+    region:
+      static: #region   # Region where you have created the queue. In this example, we have created the queue in 'ap-south-1' region.
+      auto: false
+    credentials:
+      access-key: #access key
+      secret-key: #secret-key

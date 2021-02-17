@@ -14,8 +14,8 @@
 	<name>aws-sqs-demo</name>
 	<description>Demo project for AWS SQS</description>
 	<properties>
-		<java.version>15</java.version>
-		<spring-cloud.version>Hoxton.SR10</spring-cloud.version>
+		<java.version>14</java.version>
+		<spring-cloud.version>Finchley.SR1</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -25,6 +25,10 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-aws</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-aws-messaging</artifactId>
 		</dependency>
 
 		<dependency>
